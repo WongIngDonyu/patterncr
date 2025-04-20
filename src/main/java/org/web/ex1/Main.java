@@ -9,6 +9,6 @@ public class Main {
         var repo = new InMemoryInventoryRepository();
         var service = new InventoryService(repo);
         var ui = new InventoryConsoleUI(service);
-        ui.run();
+        ui.start();
     }
 }
